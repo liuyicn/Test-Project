@@ -14,6 +14,11 @@ int test()
 {
     exit(0);
 }
+int print()
+{
+     printf("Hello World!\n");
+     printf("Fuck 群主！\n");
+}
 int main()
 {
      signal(SIGINT, test);
@@ -22,8 +27,7 @@ int main()
      num = 1;
      num2 = num*1;
   while(num2)
-       printf("Hello World!\n");
-     printf("Fuck 群主！\n");
+      print();
        return 0;
 }
 
