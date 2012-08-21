@@ -18,9 +18,12 @@ int main()
 {
      signal(SIGINT, test);
      int num;
+     int num2;
      num = 1;
-  while(num)
+     num2 = num*1;
+  while(num2)
        printf("Hello World!\n");
+     printf("Fuck 群主！\n");
        return 0;
 }
 
