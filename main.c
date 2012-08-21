@@ -8,6 +8,7 @@
 /*github搞好了*/
 /*权限问题真囧*/
 /*SSH也搞好了*/
+/*for循环*/
 #include <unistd.h>
 #include <stdlib.h> 
 #include <signal.h>
