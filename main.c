@@ -5,7 +5,8 @@
  * Created on 2012年8月20日, 下午9:28
  */
 /*一个信号处理的范例*/
-/*Fuck 群主！*/
+/*github搞好了*/
+/*权限问题真囧*/
 #include <unistd.h>
 #include<stdlib.h> 
 #include <signal.h>
