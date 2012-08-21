@@ -17,8 +17,10 @@ int test()
 int main()
 {
      signal(SIGINT, test);
-  while(1)
-       printf("CNMB\n");
+     int num;
+     num = 1;
+  while(num)
+       printf("Hello World!\n");
        return 0;
 }
 
