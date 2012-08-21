@@ -7,6 +7,7 @@
 /*一个信号处理的范例*/
 /*github搞好了*/
 /*权限问题真囧*/
+/*SSH也搞好了*/
 #include <unistd.h>
 #include <stdlib.h> 
 #include <signal.h>
