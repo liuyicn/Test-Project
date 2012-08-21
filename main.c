@@ -8,28 +8,25 @@
 /*github搞好了*/
 /*权限问题真囧*/
 #include <unistd.h>
-#include<stdlib.h> 
+#include <stdlib.h> 
 #include <signal.h>
 #include <stdio.h>
-int close()
+int fuck()
 {
     exit(0);
 }
 int print()
 {
-     printf("Hello World!\n");
      printf("Fuck 群主！\n");
 }
 int main()
 {
-     signal(SIGINT, close);
+     signal(SIGINT, fuck);
      int num;
      int num2;
      num = 1;
      num2 = num*1;
-  while(num2)
+     while(num2)
       print();
        return 0;
 }
-
-
