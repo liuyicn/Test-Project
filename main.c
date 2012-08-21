@@ -23,11 +23,10 @@ int print()
 int main()
 {
      signal(SIGINT, fuck);
-     int num;
-     int num2;
-     num = 1;
-     num2 = num*1;
-     while(num2)
+     float cnmb;
+     scanf("%f",&cnmb);
+     for(int i=0;i<cnmb;i++)
+     {
       print();
-       return 0;
+     }
 }
