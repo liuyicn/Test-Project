@@ -11,7 +11,7 @@
 #include<stdlib.h> 
 #include <signal.h>
 #include <stdio.h>
-int test()
+int close()
 {
     exit(0);
 }
@@ -22,7 +22,7 @@ int print()
 }
 int main()
 {
-     signal(SIGINT, test);
+     signal(SIGINT, close);
      int num;
      int num2;
      num = 1;
